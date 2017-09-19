@@ -1,0 +1,25 @@
+{
+  "name": "synchronised-iterationn",
+  "version": "0.0.1",
+  "description": "Array iterator in synchronised way. It takes array,  promise function to run for each item of the array and limit to run the promise function to run at a time, default limit is 1. It returns promise of all promisses of given promise functions.  ",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "keywords": [
+    "Synchronised",
+    "iteration",
+    "of",
+    "array",
+    "to",
+    "run",
+    "promise",
+    "function"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^3.5.3"
+  }
+}
